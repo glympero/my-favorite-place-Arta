@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BF44A11C1F0482007EDCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF44A01C1F0482007EDCE2 /* AppDelegate.swift */; };
+		76BF44A31C1F0482007EDCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF44A21C1F0482007EDCE2 /* ViewController.swift */; };
+		76BF44A61C1F0482007EDCE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A41C1F0482007EDCE2 /* Main.storyboard */; };
+		76BF44A81C1F0482007EDCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A71C1F0482007EDCE2 /* Assets.xcassets */; };
+		76BF44AB1C1F0482007EDCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A91C1F0482007EDCE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76BF449D1C1F0482007EDCE2 /* my-favorite-place-Arta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-favorite-place-Arta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF44A01C1F0482007EDCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76BF44A21C1F0482007EDCE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76BF44A51C1F0482007EDCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76BF44A71C1F0482007EDCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76BF44AA1C1F0482007EDCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76BF44AC1C1F0482007EDCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76BF449A1C1F0482007EDCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BF44941C1F0482007EDCE2 = {
+			isa = PBXGroup;
+			children = (
+				76BF449F1C1F0482007EDCE2 /* my-favorite-place-Arta */,
+				76BF449E1C1F0482007EDCE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76BF449E1C1F0482007EDCE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76BF449D1C1F0482007EDCE2 /* my-favorite-place-Arta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76BF449F1C1F0482007EDCE2 /* my-favorite-place-Arta */ = {
+			isa = PBXGroup;
+			children = (
+				76BF44A01C1F0482007EDCE2 /* AppDelegate.swift */,
+				76BF44A21C1F0482007EDCE2 /* ViewController.swift */,
+				76BF44A41C1F0482007EDCE2 /* Main.storyboard */,
+				76BF44A71C1F0482007EDCE2 /* Assets.xcassets */,
+				76BF44A91C1F0482007EDCE2 /* LaunchScreen.storyboard */,
+				76BF44AC1C1F0482007EDCE2 /* Info.plist */,
+			);
+			path = "my-favorite-place-Arta";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76BF449C1C1F0482007EDCE2 /* my-favorite-place-Arta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF44AF1C1F0482007EDCE2 /* Build configuration list for PBXNativeTarget "my-favorite-place-Arta" */;
+			buildPhases = (
+				76BF44991C1F0482007EDCE2 /* Sources */,
+				76BF449A1C1F0482007EDCE2 /* Frameworks */,
+				76BF449B1C1F0482007EDCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-favorite-place-Arta";
+			productName = "my-favorite-place-Arta";
+			productReference = 76BF449D1C1F0482007EDCE2 /* my-favorite-place-Arta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76BF44951C1F0482007EDCE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lympe;
+				TargetAttributes = {
+					76BF449C1C1F0482007EDCE2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 76BF44981C1F0482007EDCE2 /* Build configuration list for PBXProject "my-favorite-place-Arta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76BF44941C1F0482007EDCE2;
+			productRefGroup = 76BF449E1C1F0482007EDCE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BF449C1C1F0482007EDCE2 /* my-favorite-place-Arta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76BF449B1C1F0482007EDCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF44AB1C1F0482007EDCE2 /* LaunchScreen.storyboard in Resources */,
+				76BF44A81C1F0482007EDCE2 /* Assets.xcassets in Resources */,
+				76BF44A61C1F0482007EDCE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76BF44991C1F0482007EDCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF44A31C1F0482007EDCE2 /* ViewController.swift in Sources */,
+				76BF44A11C1F0482007EDCE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76BF44A41C1F0482007EDCE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BF44A51C1F0482007EDCE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76BF44A91C1F0482007EDCE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BF44AA1C1F0482007EDCE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76BF44AD1C1F0482007EDCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76BF44AE1C1F0482007EDCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76BF44B01C1F0482007EDCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-favorite-place-Arta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lympe.my-favorite-place-Arta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76BF44B11C1F0482007EDCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-favorite-place-Arta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lympe.my-favorite-place-Arta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76BF44981C1F0482007EDCE2 /* Build configuration list for PBXProject "my-favorite-place-Arta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF44AD1C1F0482007EDCE2 /* Debug */,
+				76BF44AE1C1F0482007EDCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF44AF1C1F0482007EDCE2 /* Build configuration list for PBXNativeTarget "my-favorite-place-Arta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF44B01C1F0482007EDCE2 /* Debug */,
+				76BF44B11C1F0482007EDCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76BF44951C1F0482007EDCE2 /* Project object */;
+}
