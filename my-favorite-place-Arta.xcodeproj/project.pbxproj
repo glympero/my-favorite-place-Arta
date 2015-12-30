@@ -12,6 +12,8 @@
 		76BF44A61C1F0482007EDCE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A41C1F0482007EDCE2 /* Main.storyboard */; };
 		76BF44A81C1F0482007EDCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A71C1F0482007EDCE2 /* Assets.xcassets */; };
 		76BF44AB1C1F0482007EDCE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF44A91C1F0482007EDCE2 /* LaunchScreen.storyboard */; };
+		76BF44B31C1F22F6007EDCE2 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF44B21C1F22F6007EDCE2 /* Page1ViewController.swift */; };
+		76BF44B51C1F2367007EDCE2 /* OrangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF44B41C1F2367007EDCE2 /* OrangeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		76BF44A71C1F0482007EDCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76BF44AA1C1F0482007EDCE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76BF44AC1C1F0482007EDCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF44B21C1F22F6007EDCE2 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		76BF44B41C1F2367007EDCE2 /* OrangeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		766525751C25AA240004241B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
 		76BF44941C1F0482007EDCE2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +69,11 @@
 				76BF44A21C1F0482007EDCE2 /* ViewController.swift */,
 				76BF44A41C1F0482007EDCE2 /* Main.storyboard */,
 				76BF44A71C1F0482007EDCE2 /* Assets.xcassets */,
+				766525751C25AA240004241B /* Buttons */,
 				76BF44A91C1F0482007EDCE2 /* LaunchScreen.storyboard */,
 				76BF44AC1C1F0482007EDCE2 /* Info.plist */,
+				76BF44B21C1F22F6007EDCE2 /* Page1ViewController.swift */,
+				76BF44B41C1F2367007EDCE2 /* OrangeButton.swift */,
 			);
 			path = "my-favorite-place-Arta";
 			sourceTree = "<group>";
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BF44B31C1F22F6007EDCE2 /* Page1ViewController.swift in Sources */,
+				76BF44B51C1F2367007EDCE2 /* OrangeButton.swift in Sources */,
 				76BF44A31C1F0482007EDCE2 /* ViewController.swift in Sources */,
 				76BF44A11C1F0482007EDCE2 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +302,7 @@
 				76BF44B11C1F0482007EDCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
